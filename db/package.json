@@ -1,7 +1,11 @@
 {
+    "scripts": {
+      "seed": "mysql -u root -p employeeTracker_db < seeds.sql"
+    },
     "dependencies": {
-      "inquirer": "^9.1.4",
+      "inquirer": "^9.2.19",
       "mysql2": "^3.1.2"
     }
   }
+
   

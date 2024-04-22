@@ -20,11 +20,11 @@ connection.connect((err) => {
 });
 
 // Function to start the application of CFONT 
-cfonts.say('Thomas & Friends \nSQL Employee Tracker', {
+cfonts.say('Empoyees datbase \nSQL Employee Tracker', {
 	font: 'block',              // define the font face
 	align: 'left',              // define text alignment
-	colors: ['blue'],         // define all colors
-	background: 'transparent',  // define the background color, you can also use `backgroundColor` here as key
+	colors: ['black'],         // define all colors
+	background: 'white',  // define the background color, you can also use `backgroundColor` here as key
 	letterSpacing: 1,           // define letter spacing
 	lineHeight: 1,              // define the line height
 	space: true,                // define if the output text should have empty lines on top and on the bottom
@@ -35,7 +35,7 @@ cfonts.say('Thomas & Friends \nSQL Employee Tracker', {
 	env: 'node'                 // define the environment cfonts is being executed in
 });
 
-// Function to Start Thomas SQL Employee Tracker Application
+// Function to Start  Employee Tracker Application
 function start() {
     inquirer
         .prompt({
@@ -425,7 +425,7 @@ function updateEmployeeRole() {
     });
 }
 
-// Remember: iPad forced push to origin main deleted local stash that fixed bonus question for salary summary
+
 // Function to View Employee By Manager
 function viewEmployeesByManager() {
     const query = `
@@ -685,5 +685,4 @@ function viewTotalUtilizedBudgetOfDepartment() {
 process.on("exit", () => {
     connection.end();
 });
-// Thank you for viewing!
-// Thomas Calle 😊
+
