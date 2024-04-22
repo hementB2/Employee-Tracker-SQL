@@ -77,4 +77,7 @@ Install the following:
 
 ## Repository Link:
 
+https://github.com/hementB2/Employee-Tracker-SQL
+
 ## Walkthrough Video:
+https://drive.google.com/file/d/14TmiBOwfAq4JDVkSVwTuGCTYIppPFNcC/view
